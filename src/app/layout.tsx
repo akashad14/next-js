@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import App from "./components/App";
-import img1 from "./components/images/img1.jpg"
+
+import img1 from './src/components/images/img1.jpg';
 
 
 
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        
         <App/>
         {children}
       </body>

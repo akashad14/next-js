@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-// import img1 from './images/img1.jpg';
-// import img2 from './components/images/img2.jpg';
+ 
 
 import React from 'react';
 
