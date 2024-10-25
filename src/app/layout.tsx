@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import App from "./components/App";
-import logo from"/components/logo";
+import main from "./components/main";
+
 
 
 
