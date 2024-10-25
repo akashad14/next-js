@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import App from "./components/App";
-import main from "./components/main";
+import img1 from "./components/images/img1.jpg"
 
 
 
@@ -38,4 +38,4 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+};
